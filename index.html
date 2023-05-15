@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JBL Headphones</title>
+    <style>
+      body {
+        background-color: #9bf4d5;
+      }
+      h1 {
+        text-align: center;
+      }
+      h2 {
+        text-align: center;
+        border: 1px solid;
+        padding: 10px;
+        border-radius: 5px;
+        font: size 40px;
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        border-radius: 10px;
+      }
+      ul {
+        line-height: 1.5;
+      }
+      a {
+        text-align: center;
+        margin-top: 10px;
+        text-decoration: none;
+        color: black;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+      button {
+        display: block;
+        margin: 20px auto;
+        background: white;
+        font-size: 20px;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        opacity: 0.9;
+        cursor: pointer;
+      }
+      p {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>JBL HEADPHONES:PURCHASE OF THE MONTH</h1>
+    <h2>🤗My Fav!!</h2>
+    <img
+      src="https://eu.jbl.com/dw/image/v2/AAUJ_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwe9213a1f/JBL_Tune500_Hero_Pink_1605x1605.jpg?sw=626&sh=626&sm=fit&sfrm=png
+    "
+      width="300px"
+    />
+    <h3>Why I love JBL Headphones</h3>
+    <ul>
+      <li>
+        Wirelessly stream high quality sound from your smartphone without messy
+        cords.
+      </li>
+      <li>
+        It features the renowned JBL Pure Bass sound, which is can be found in
+        the most famous venues all around the world.
+      </li>
+      <li>
+        Easily control your sound and manage your calls from your headphones
+        with the convenient 1-button remote with mic.
+      </li>
+      <li>
+        For long lasting fun, listen wirelessly for up to 16 hours and recharge
+        the battery in as little as 2 hours. A quick 5 -minute recharge gives
+        you up to an additional hour of music.
+      </li>
+      <li>
+        The lightweight materials and soft ear cushions with a padded headband
+        make the headphones comfortable to wear for extended periods. The
+        foldable design makes it convenient for you to carry your headphones
+        anywhere and anytime you want music.
+      </li>
+    </ul>
+    <a href="https://eu.jbl.com/headphones" target="_blank"
+      >MORE OPTIONS HERE!!
+    </a>
+    <br />
+    <button class="buy-button">👉Buy headphones here</button>
+    <p>This page was built by Babalwa Ngcwayi</p>
+    <script>
+      function buy() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email address?");
+        alert(
+          "Thank you ," +
+            name +
+            " " +
+            "!We'll be in touch via email, meanwhile enjoy your purchase 👌"
+        );
+      }
+      let buyButton = document.querySelector(".buy-button");
+      buyButton.addEventListener("click", buy);
+    </script>
+  </body>
+</html>
